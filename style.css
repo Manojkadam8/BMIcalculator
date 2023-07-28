@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 20rem;
+    width: 22rem;
+    background-color: rgb(173, 168, 168);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.container h2{
+    text-align: center;
+    background-color: aquamarine;
+}
+.resultdiv{
+    background-color: rgb(223, 219, 214);
+    width: 16rem;
+    height: 5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.resultdiv span{
+    background-color: rgb(223, 219, 214);
+    width: 16rem;
+    height: 5rem;
+    text-align: center;
+    margin: 0.5rem auto;
+    font-weight: 700;
+}
+.row{
+    margin-top: 2rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.row input{
+    height: 2rem;
+    width: 7rem;
+}
+.wieghtdiv {
+    
+    margin-top: -1rem;
+    
+}
+.wieghtdiv label{
+    font-size: large;
+    font-weight: 600;
+    margin-left: -2rem;
+    
+}
+.heightdiv{
+    
+    margin-top: 1rem;
+}
+.heightdiv label{
+    font-size: large;
+    font-weight: 600;
+    margin-left: -2rem;
+}
+.btn{
+    width: 6rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
